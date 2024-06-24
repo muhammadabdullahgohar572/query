@@ -1,61 +1,70 @@
 
 
--- -- create table Abdullah(
--- -- id int not null unique,
--- -- Name varchar(100) not null unique,
--- -- age int not null check(age >18),
--- -- phone int not null unique ,
--- -- city varchar (50) not null default "karachi"
--- -- )
+-- -- -- create table Abdullah(
+-- -- -- id int not null unique,
+-- -- -- Name varchar(100) not null unique,
+-- -- -- age int not null check(age >18),
+-- -- -- phone int not null unique ,
+-- -- -- city varchar (50) not null default "karachi"
+-- -- -- )
 
---  -- insert into abdullah(id,Name,age,phone,city)
--- --  values
--- -- (48,"Nadia",27,03335432109,"Faisalabad")
-
-
+-- --  -- insert into abdullah(id,Name,age,phone,city)
+-- -- --  values
+-- -- -- (48,"Nadia",27,03335432109,"Faisalabad")
 
 
 
 
---  use studentdeatls;
---  
--- --  select id As Id ,Name ,age as Age ,phone as Phone ,city as City from  abdullah
--- select id As Id ,Name ,age as Age ,phone as Phone ,city as City from  abdullah
--- -- where age <25;
--- -- where age <25 And city ="karachi"
--- where id in(3,5)
 
 
--- select * from abdullah
+-- --  use studentdeatls;
+-- --  
+-- -- --  select id As Id ,Name ,age as Age ,phone as Phone ,city as City from  abdullah
+-- -- select id As Id ,Name ,age as Age ,phone as Phone ,city as City from  abdullah
+-- -- -- where age <25;
+-- -- -- where age <25 And city ="karachi"
+-- -- where id in(3,5)
 
--- where age between 18 and 25;
 
--- select * from abdullah
+-- -- select * from abdullah
 
--- where age not between 18 and 25;
+-- -- where age between 18 and 25;
 
+-- -- select * from abdullah
 
-
--- select * from abdullah
-
--- where name  between "H" and "y";
+-- -- where age not between 18 and 25;
 
 
 
+-- -- select * from abdullah
 
--- select  * from abdullah
-
--- where name like "s%" 
-
-use studentdeatls;
-
--- select * from abdullah
--- where age >30
--- order by name|id asc
+-- -- where name  between "H" and "y";
 
 
 
-use studentdeatls;
+
+-- -- select  * from abdullah
+
+-- -- where name like "s%" 
+
+-- use studentdeatls;
+
+-- -- select * from abdullah
+-- -- where age >30
+-- -- order by name|id asc
 
 
-select distinct city from abdullah order by city asc
+
+-- use studentdeatls;
+
+
+-- select distinct city from abdullah order by city asc
+
+-- limt-- 
+-- SELECT * FROM abdullah
+--  LIMIT 5;
+
+-- -- ofsitlimit 
+-- SELECT * FROM abdullah
+--  LIMIT 5,5;
+
