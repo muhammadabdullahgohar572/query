@@ -103,3 +103,59 @@ delete from abdullah
 where id =3;
 
 rollback;
+/////////////////
+
+
+use studentdeatls;
+
+-- create table City(
+
+-- cid int not null auto_increment,
+-- cityName varchar(20) not null,
+-- primary key(cid)
+
+-- )
+
+
+-- INSERT INTO City (cityName) VALUES 
+-- ('New York'),
+-- ('Los Angeles'),
+-- ('Chicago'),
+-- ('Houston'),
+-- ('Phoenix'),
+-- ('Philadelphia'),
+-- ('San Antonio'),
+-- ('San Diego'),
+-- ('Dallas'),
+-- ('San Jose'),
+-- ('Austin')
+
+
+USE studentdeatls;
+
+-- CREATE TABLE StudentDetails (
+--     id INT NOT NULL,
+--     name VARCHAR(50) NOT NULL,
+--     percentage DECIMAL(5,2) NOT NULL,
+--     age INT NOT NULL,
+--     gender CHAR(1) NOT NULL,
+--     city int NOT NULL,
+--     PRIMARY KEY (id),
+--     
+--     foreign key(city) references city (cid)
+-- );
+
+USE studentdeatls;
+
+-- INSERT INTO StudentDetails (Id,name, percentage, age, gender, city) VALUES
+-- (1,'Alice Smith', 85.50, 20, 'F', 1),
+-- (2,'Bob Johnson', 78.00, 22, 'M', 3),
+-- (3,'Carol Williams', 92.30, 19, 'F', 5),
+-- (4,'David Brown', 88.40, 21, 'M', 4),
+-- (5,'Eva Davis', 91.20, 20, 'F', 6)
+
+select * from studentdetails
+
+
+
+
