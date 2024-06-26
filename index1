@@ -64,6 +64,23 @@
 -- SELECT * FROM abdullah
 --  LIMIT 5;
 
+
+
+use studentdeatls;
+
+-- select count(id) from abdullah;
+--  select sum(age) from abdullah;
+--  select min(age) from abdullah;
+--  select max(age) from abdullah;
+ -- select avg(id) from abdullah;
+ 
+ update abdullah
+ 
+ set age =20
+ 
+ where id between 1 and 20
+
+
 -- -- ofsitlimit 
 -- SELECT * FROM abdullah
 --  LIMIT 5,5;
