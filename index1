@@ -80,7 +80,7 @@ use studentdeatls;
  
  where id between 1 and 20
 
-
+/////////////////////////
 use studentdeatls;
 
 select * from abdullah;
@@ -95,7 +95,11 @@ where id =1;
 
 rollback
 
--- -- ofsitlimit 
--- SELECT * FROM abdullah
---  LIMIT 5,5;
+/////////////////////////
+commit ;
 
+delete from abdullah
+
+where id =3;
+
+rollback;
