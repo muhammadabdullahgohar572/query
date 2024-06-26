@@ -81,6 +81,20 @@ use studentdeatls;
  where id between 1 and 20
 
 
+use studentdeatls;
+
+select * from abdullah;
+
+commit;
+
+update abdullah
+
+set age =60
+
+where id =1;
+
+rollback
+
 -- -- ofsitlimit 
 -- SELECT * FROM abdullah
 --  LIMIT 5,5;
